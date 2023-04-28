@@ -1,0 +1,1 @@
+# BlazeMart - A MERN ecommerce store.
