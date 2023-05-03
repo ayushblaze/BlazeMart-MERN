@@ -1,0 +1,22 @@
+{
+  "name": "blazemart",
+  "version": "1.0.0",
+  "description": "A MERN eCommerce App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayushblaze/BlazeMart-MERN.git"
+  },
+  "author": "Ayush Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayushblaze/BlazeMart-MERN/issues"
+  },
+  "homepage": "https://github.com/ayushblaze/BlazeMart-MERN#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

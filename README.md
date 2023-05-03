@@ -1,6 +1,6 @@
 # BlazeMart - A MERN ecommerce store.
 
-<h3>30th April, 2023</h3>
+<h3>30th April, 2023 (Frontend Only)</h3>
 <ol>
   <li>Completed the Header Navbar, apparently the "ml-auto" class wasn't working for some reason, so I had to add an inline style to move the Cart and Sign.</li>
   <li>Added the Footer too.</li>
@@ -12,4 +12,16 @@
   <li>
     When we click on a card information about that particular product is rendered using the ProductScreen.js component.
   </li>
+</ol>
+<br>
+<h3>3rd May, 2023 (Starting out the backend)</h3>
+<ol>
+  <li>
+    Talking about modules, right now, I'm gonna use commonJS syntax but soon I'll shift to ES6 modules syntax.
+    The Products file (the one present inside backend/data) uses ES6 "export default products", changing it to export.default = products for now.
+  </li>
+  <li>
+    Added a /api/products route, we'll now call this route from the frontend.
+  </li>
+  <li>Now, there's a backend route which gives you all of the products from a static file the endpoint is "/api/products" since the server is running on port 5000 and we make a call from the frontend (port 3000) we get a cors error, now to tackle the cors error in the frontend's package.json we added a key value pair which was "proxy": "http://127.0.0.1:5000" and this is something I learnt today.
 </ol>
