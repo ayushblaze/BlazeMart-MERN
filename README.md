@@ -23,5 +23,11 @@
   <li>
     Added a /api/products route, we'll now call this route from the frontend.
   </li>
-  <li>Now, there's a backend route which gives you all of the products from a static file the endpoint is "/api/products" since the server is running on port 5000 and we make a call from the frontend (port 3000) we get a cors error, now to tackle the cors error in the frontend's package.json we added a key value pair which was "proxy": "http://127.0.0.1:5000" and this is something I learnt today.
+  <li>Now, there's a backend route which gives you all of the products from a static file the endpoint is "/api/products" since the server is running on port 5000 and we make a call from the frontend (port 3000) we get a cors error, now to tackle the cors error in the frontend's package.json we added a key value pair which was "proxy": "http://127.0.0.1:5000" and this is something I learnt today.</li>
 </ol>
+  <br>
+  <h3>5th May, 2023</h3>
+  <ol>
+    <li>Setup Atlas, connecting to the DB through the db.js file inside backend/config/</li>
+  </ol>
+  

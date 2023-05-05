@@ -22,7 +22,8 @@
   "homepage": "https://github.com/ayushblaze/BlazeMart-MERN#readme",
   "dependencies": {
     "dotenv": "^16.0.3",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.10.6"
   },
   "devDependencies": {
     "concurrently": "^8.0.1",
