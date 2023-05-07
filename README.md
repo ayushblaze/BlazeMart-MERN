@@ -28,6 +28,14 @@
   <br>
   <h3>5th May, 2023</h3>
   <ol>
-    <li>Setup Atlas, connecting to the DB through the db.js file inside backend/config/</li>
+    <li>Setup Atlas, connecting to the DB through the db.js file inside backend/config/.</li>
+    <li>Setup mongoose for communicating with the DB, setup mongoose Schema for our data.</li>
+    <li>Added the colors package to make the console message clearer.</li>
   </ol>
-  
+  <br>
+  <h3>7th May, 2023</h3>
+  <ol>
+    <li>Added dummy user data, since we're gonna need an admin user to populate the "user" field in products data.</li>
+    <li>Created a seeder.js file which would import/destroy data depending on the flag you pass it.</li>
+    <>
+  </ol>
