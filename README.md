@@ -36,6 +36,8 @@
   <h3>7th May, 2023</h3>
   <ol>
     <li>Added dummy user data, since we're gonna need an admin user to populate the "user" field in products data.</li>
-    <li>Created a seeder.js file which would import/destroy data depending on the flag you pass it.</li>
-    <>
+    <li>Created a seeder.js file which would import/destroy data depending on the flag (-d) you pass to it.</li>
+    <li>
+      Modularized routes, to keep the server.js file lean.
+    </li>
   </ol>
